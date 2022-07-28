@@ -1,0 +1,7 @@
+.carousel-inner img{
+  opacity: .4;
+  /* height: 500px; */
+}
+.carousel-inner{
+  background-color: black;
+}
