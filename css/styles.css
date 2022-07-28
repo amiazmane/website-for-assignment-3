@@ -1,7 +1,52 @@
-.carousel-inner img{
-  opacity: .4;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #777777;
+}
+.carousel-inner img {
+  opacity: 0.4;
   /* height: 500px; */
 }
-.carousel-inner{
+.carousel-inner {
   background-color: black;
+}
+footer .fa {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-color: #757171;
+  border-radius: 50%;
+}
+header nav a:hover {
+  box-shadow: 1px 1px 1px 1px maroon;
+}
+.header-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+.main-header {
+  color: #1d1d1d;
+  font-size: 45px;
+}
+.course-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.working-header,
+.successfil-header,
+.feedback,
+.freq-question,
+.trust-companies {
+  color: #1d1d1d;
+  font-weight: 600;
+  font-size: 45px;
+}
+.working-data {
+  color: #1d1d1d;
+  font-weight: 600;
+  font-size: 35px;
 }

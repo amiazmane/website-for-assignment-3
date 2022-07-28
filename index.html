@@ -4,6 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Making website with css framework</title>
+      <!-- /* font styles */ -->
+      <!-- 1st -->
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+      </style>
+      <!-- 2nd -->
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        </style>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,14 +27,14 @@
     ></script>
   </head>
   <!---------------- Body section start -->
-  <body class="container">
+  <body class="">
     <!-- header section start  -->
     <header class="mb-5">
       <!-- navbar start  -->
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg my-5">
         <div class="container-fluid flex justify-content-evenly">
           <div>
-            <a class="navbar-brand fs-3 fw-bold text-info" href="#"
+            <a class="navbar-brand fs-1 fw-bolder text-info" href="#"
               >Pathshala</a
             >
           </div>
@@ -112,7 +122,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="fs-1">Get Started Digital Learning</h5>
+                <h5 class="fs-1 header-title">Get Started Digital Learning</h5>
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
@@ -127,7 +137,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="fs-1">Explore your capability</h5>
+                <h5 class="fs-1 header-title">Explore your capability</h5>
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
@@ -142,7 +152,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="fs-1">Let's have gossip about digital asset.</h5>
+                <h5 class="fs-1 header-title">Let's have gossip about digital asset.</h5>
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
@@ -176,9 +186,9 @@
     <!----------------------------------------------
       --------------------------------- main section strat------------
     ---------------------------------------------------------------------- -->
-    <main class="pt-5">
+    <main class="pt-5 container">
       <section class="w-50 text-center m-auto">
-        <h1 class="fw-bold">
+        <h1 class="fw-bold main-header">
           Discover Our Popular <br />
           Courses
         </h1>
@@ -192,7 +202,7 @@
           <div class="d-flex align-items-center rounded shadow-lg mb-4">
             <img src="images/course/course-1.png" alt="" />
             <div class="p-3">
-              <h5>Fundamental Of UI/UX Design</h5>
+              <h5 class="course-title">Fundamental Of UI/UX Design</h5>
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card.
@@ -203,7 +213,7 @@
           <div class="d-flex align-items-center rounded shadow-lg mb-4">
             <img src="images/course/course-2.png" alt="" />
             <div class="p-3">
-              <h5>Fundamental Of UI/UX Design</h5>
+              <h5 class="course-title">Fullstack Web Development</h5>
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card.
@@ -214,7 +224,7 @@
           <div class="d-flex align-items-center rounded shadow-lg">
             <img src="images/course/course-5.png" alt="" />
             <div class="p-3">
-              <h5>Fundamental Of UI/UX Design</h5>
+              <h5 class="course-title">Photography Basic Rules</h5>
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card.
@@ -227,7 +237,7 @@
           <div class="d-flex align-items-center rounded shadow-lg mb-4">
             <img src="images/course/course-3.png" alt="" />
             <div class="p-3">
-              <h5>Fundamental Of UI/UX Design</h5>
+              <h5 class="course-title">Javascript Basic to Advance</h5>
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card.
@@ -238,7 +248,7 @@
           <div class="d-flex align-items-center rounded shadow-lg mb-4">
             <img src="images/course/course-4.png" alt="" />
             <div class="p-3">
-              <h5>Fundamental Of UI/UX Design</h5>
+              <h5 class="course-title">Digital Marketing</h5>
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card.
@@ -249,7 +259,7 @@
           <div class="d-flex align-items-center rounded shadow-lg">
             <img src="images/course/course-6.png" alt="" />
             <div class="p-3">
-              <h5>Fundamental Of UI/UX Design</h5>
+              <h5 class="course-title">Motion Graphics</h5>
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card.
@@ -269,7 +279,7 @@
         <div
           class="col d-flex flex-column align-items-center justify-content-center"
         >
-          <h1>Explore The elearning Institute</h1>
+          <h1 class="working-header">Explore The elearning Institute</h1>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -283,16 +293,16 @@
             generators on the Internet tend to repeat predefined.
           </p>
           <div class="d-flex justify-content-between">
-            <div class="">
-              <h1>3.2K+</h1>
+            <div>
+              <h1 class="working-data">3.2K+</h1>
               <p>Online Courses</p>
             </div>
             <div>
-              <h1>600+</h1>
+              <h1 class="working-data">600+</h1>
               <p>Expert Member</p>
             </div>
             <div>
-              <h1>1K+</h1>
+              <h1 class="working-data">1K+</h1>
               <p>Rating & Review</p>
             </div>
           </div>
@@ -362,7 +372,7 @@
         </div>
       </section>
       <section class="text-left w-50 pt-5 mb-5">
-        <h1>Meet All Of Our Successfull Students.</h1>
+        <h1 class="successfil-header">Meet All Of Our Successfull Students.</h1>
         <p class="text-[#777777]">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
@@ -433,7 +443,7 @@
         class="pt-5 d-flex flex-column justify-content-center align-items-center text-center mb-5"
       >
         <div class="w-50">
-          <h2>Some Students Feedback</h2>
+          <h2 class="feedback">Some Students Feedback</h2>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
@@ -499,7 +509,7 @@
       <section class="mt-5 pt-5 d-flex justify-content-center">
         <div class="w-75">
           <div class="text-center">
-            <h1 class="mb-3">Frequently Asked Questions</h1>
+            <h1 class="mb-3 freq-question">Frequently Asked Questions</h1>
             <p class="mb-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
           <div>
@@ -567,7 +577,7 @@
 
       </section>
       <section class="mt-5 pt-5">
-        <h1 class="text-center mb-5">Trusted by over 800+ companies</h1>
+        <h1 class="text-center mb-5 trust-companies">Trusted by over 800+ companies</h1>
         <div class="d-flex align-items-center justify-content-evenly ms-5">
           <div><img class="w-75 img-fluid" src="images/company/company-1.png" alt=""></div>
           <div><img class="w-75 img-fluid" src="images/company/company-2.png" alt=""></div>
@@ -594,4 +604,22 @@
     ></script>
   </body>
   <!---------------- Body section end -->
+  <!--  -->
+  <!-- Foooter section  -->
+  <footer class="mt-5 bg-dark w-auto py-5">
+    <div class="text-white d-flex flex-column justify-content-center align-items-center py-5 text-center lh-1">
+      <h1>Pathshala</h1>
+      <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
+        Sultanate of Oman</p>
+        <p>Privacy Ploicy  |   Terms of use</p>
+        <div class="d-flex gap-3">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+
+        </div>
+    </div>
+  </footer>
+
 </html>
